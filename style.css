@@ -1,0 +1,60 @@
+
+img{
+    padding-right: 100px;
+}
+body{
+    background-color: #88a9b8;
+}
+p{
+    font-size: 20px;
+}
+.upnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.upnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding:16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.upnav a:hover {
+  background-color: rgb(236, 239, 240);
+  color: rgb(58, 149, 201);
+}
+
+table,th, td{
+    border: 2px solid rgb(13, 14, 13);
+    padding:20px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+    background-color: antiquewhite;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .column{
+    width: 100%;
+    background-color: burlywood;
+  }
+}
+
+.button {
+  font-size: 20px;
+  color: rgb(42, 52, 187);
+}
